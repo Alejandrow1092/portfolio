@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  width: 100vw;
+  background-color: steelblue;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+/*# sourceMappingURL=index.HASH_REF_6f662cc20c4556129faea69b41e4b3cf.css.map */
