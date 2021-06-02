@@ -25,4 +25,51 @@ header nav a {
   color: blue;
   font-weight: 700;
 }
+
+#about .container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30rem;
+}
+#about .container > * {
+  border: 3px solid red;
+}
+#about .container .info {
+  width: 47%;
+}
+#about .container .info h2 {
+  color: blue;
+  margin-bottom: 1rem;
+}
+#about .container .info p {
+  margin-bottom: 1rem;
+}
+#about .container .info .actions button {
+  margin-right: 1rem;
+  background: maroon;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border: none;
+  border-radius: 0.3rem;
+}
+#about .container .image {
+  width: 47%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#about .container .image figure {
+  border: 1px solid red;
+  width: 70%;
+}
+#about .container .image figure img {
+  width: 100%;
+  /*ocupe el 100% de su contenedor*/
+  max-width: 100%;
+  border-radius: 50%;
+}
 /*# sourceMappingURL=index.41e4b3cf.css.map */
