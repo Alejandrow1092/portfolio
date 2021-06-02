@@ -34,9 +34,9 @@ header nav a {
   justify-content: space-between;
   align-items: center;
   height: 30rem;
-}
-#about .container > * {
-  border: 3px solid red;
+  /*& > *{
+      border: 3px solid red;
+  }*/
 }
 #about .container .info {
   width: 47%;
